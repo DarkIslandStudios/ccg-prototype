@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0e8ccb33249e9479dfdbcb3e852d3a, type: 3}
+  m_Name: Ocean Set
+  m_EditorClassIdentifier: 
+  Cards:
+  - {fileID: 11400000, guid: ca443257f191a7344884ec520785ccad, type: 2}
+  - {fileID: 11400000, guid: 5c6aa7594478a904fa90b09c7df98c97, type: 2}
+  - {fileID: 11400000, guid: b7341ac7bf8875b4caaf21ff76bce77a, type: 2}
+  - {fileID: 11400000, guid: 241aee74eda1e614bb2c82379153a22f, type: 2}
+  - {fileID: 11400000, guid: 3858c86bdca978f44bd881141cd3a50f, type: 2}
+  - {fileID: 11400000, guid: 37843edf319dccf4d848f3ed3bfce0b3, type: 2}
