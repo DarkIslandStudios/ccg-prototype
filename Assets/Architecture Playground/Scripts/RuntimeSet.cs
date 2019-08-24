@@ -7,8 +7,8 @@ public abstract class RuntimeSet<T> : ScriptableObject
 
     public void Add(T thing)
     {
-        if (!Items.Contains(thing))
-            Items.Add(thing);
+        // if (!Items.Contains(thing))
+        Items.Add(thing);
     }
 
     public void Remove(T thing)
