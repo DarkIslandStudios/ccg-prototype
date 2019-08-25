@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21b28f54ae855e24997c62cb170b6975, type: 3}
   m_Name: Ember
   m_EditorClassIdentifier: 
-  color: {r: 0.8867924, g: 0.3781465, b: 0.08784264, a: 0}
+  color: {r: 0.8867924, g: 0.3781465, b: 0.08784264, a: 1}
   num: 0
   colorName: Ember

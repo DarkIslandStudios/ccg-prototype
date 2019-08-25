@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21b28f54ae855e24997c62cb170b6975, type: 3}
   m_Name: Ocean Wave
   m_EditorClassIdentifier: 
-  color: {r: 0.29556784, g: 0.5331376, b: 0.7735849, a: 0}
+  color: {r: 0.29556784, g: 0.5331376, b: 0.7735849, a: 1}
   num: 0
   colorName: 
