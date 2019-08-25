@@ -3,18 +3,18 @@ using UnityEngine;
 
 public abstract class RuntimeSet<T> : ScriptableObject
 {
-    public List<T> Items = new List<T>();
+    public List<T> Cards = new List<T>();
 
-    public void Add(T thing)
+    public void Add(T card)
     {
-        // if (!Items.Contains(thing))
-        Items.Add(thing);
+        // if (!Cards.Contains(card))
+        Cards.Add(card);
     }
 
-    public void Remove(T thing)
+    public void Remove(T card)
     {
-        if (Items.Contains(thing))
-            Items.Remove(thing);
+        if (Cards.Contains(card))
+            Cards.Remove(card);
     }
 
 }

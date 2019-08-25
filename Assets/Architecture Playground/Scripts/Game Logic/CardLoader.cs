@@ -6,8 +6,8 @@ public class CardLoader : MonoBehaviour
     // RuntimeDeck deck;
     public RuntimeDeck Deck;
     public CardSet cardSet;
-    public GameObject gameObjectDeck;
-    public GameObject board;
+    public GameObjectDeck gameObjectDeck;
+    public GameObject handPanel;
 
     private void Start()
     {
@@ -17,7 +17,14 @@ public class CardLoader : MonoBehaviour
     private void OnMouseDown()
     {
         ClearClones();
-        gameObjectDeck.SetActive(true);
+        gameObjectDeck.EnableDeck();
+        LoadDeck();
+    }
+
+    public void ResetDeck()
+    {
+        ClearClones();
+        gameObjectDeck.EnableDeck();
         LoadDeck();
     }
 
@@ -34,10 +41,8 @@ public class CardLoader : MonoBehaviour
     public void ClearClones()
     {
         Debug.Log("clearing clones...");
-        Debug.Log(board);
-        Debug.Log(board.transform);
 
-        foreach (Transform card in board.transform)
+        foreach (Transform card in handPanel.transform)
         {
             Debug.Log("destroying " + card);
             GameObject.Destroy(card.gameObject);

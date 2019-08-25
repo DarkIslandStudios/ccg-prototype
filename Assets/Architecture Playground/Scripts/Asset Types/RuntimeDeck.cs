@@ -4,22 +4,22 @@ using UnityEngine;
 [CreateAssetMenu]
 public class RuntimeDeck : RuntimeSet<ColorCard>
 {
-    public int CardsLeft => Items.Count;
+    public int CardsLeft => Cards.Count;
 
     public ColorCard Draw()
     {
+        // Debug.Log("Drawing new Card!");
+        int num = Random.Range(0, Cards.Count);
 
-        int num = Random.Range(0, Items.Count);
-
-        ColorCard card = Items[num];
-        Items.Remove(card);
-        // Debug.Log("There are " + Items.Count.ToString() + " cards remaining");
+        ColorCard card = Cards[num];
+        Cards.Remove(card);
+        // Debug.Log("There are " + Cards.Count.ToString() + " cards remaining");
         return card;
 
     }
 
     public void Clear()
     {
-        Items.Clear();
+        Cards.Clear();
     }
 }
