@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: White Fire
   m_EditorClassIdentifier: 
   color: {r: 1, g: 0.9034011, b: 0.7688679, a: 1}
-  num: 0
+  num: 2
   colorName: White Fire

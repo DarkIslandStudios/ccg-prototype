@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b28f54ae855e24997c62cb170b6975, type: 3}
-  m_Name: Ocean Wave
+  m_Script: {fileID: 11500000, guid: 11ff0979bf910454a8f7c30537520a9e, type: 3}
+  m_Name: Player Hand
   m_EditorClassIdentifier: 
-  color: {r: 0.29556784, g: 0.5331376, b: 0.7735849, a: 1}
-  num: 3
-  colorName: Ocean Wave
+  cardSet: {fileID: 0}

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: {r: 0.49247953, g: 0.6918467, b: 0.8773585, a: 1}
   num: 0
-  colorName: 
+  colorName: Rain
